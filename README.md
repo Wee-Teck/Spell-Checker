@@ -29,5 +29,5 @@ Once the spell checker is fully developed and tested, the plan is to create an i
 - Contextual suggestions and corrections
 - Integration with popular web development frameworks
 
-
+</br>
 Thank you for your interest in the Spell Checker project!
