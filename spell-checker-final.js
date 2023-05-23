@@ -214,8 +214,7 @@ function spellCheck(word) {
     if (suggestions.length > 0) {
       const suggestedWords = suggestions.map((suggestion) => suggestion.word);
       const closestSuggestion = suggestedWords[0];
-      console.log(`Did you mean: ${suggestedWords.join(", ")}?`);
-      console.log(`Closest suggestion: ${closestSuggestion}`);
+      console.log(`Did you mean: ${closestSuggestion}?`);
     } else {
       console.log(`No suggestions found for ${word}.`);
     }
@@ -223,6 +222,6 @@ function spellCheck(word) {
 }
 
 // Example usage
-const word = "po";
+const word = "hel";
 
 spellCheck(word);
