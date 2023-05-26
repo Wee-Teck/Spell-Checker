@@ -32,8 +32,8 @@ export async function spellCheck(word) {
     const suggestedWords = suggestions.map((suggestion) => suggestion.word);
     const closestSuggestion = suggestedWords[0];
     return [
-      `Did you mean: ${suggestedWords.join(", ")}?`,
-      `Closest suggestion: ${closestSuggestion}`,
+      `Did you mean: ${closestSuggestion}?`,
+      `All Suggestions: ${suggestedWords.join(", ")}`,
     ];
   } else {
     return [`No suggestions found for ${word}.`];
