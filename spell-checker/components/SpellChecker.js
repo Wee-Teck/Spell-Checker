@@ -4,7 +4,7 @@ import Trie from "./Trie";
 import { getEditDistance } from "./EditDistance";
 
 export async function spellCheck(word) {
-  const response = await fetch("/public/dictionary.txt");
+  const response = await fetch("/dictionary.txt");
   const data = await response.text();
   const dictionary = data.split("\n").map((word) => word.trim());
 
