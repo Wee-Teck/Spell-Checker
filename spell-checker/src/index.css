@@ -10,7 +10,7 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   color: white;
-  background: linear-gradient(135deg, #8a97cb, #ab83a1, #e5a87d);
+  background: black;
   background-attachment: fixed;
 }
 
